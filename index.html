@@ -6,9 +6,52 @@
   <title>Andrew's Personal Site</title>
   <link rel="stylesheet" href="css/styles.css">
   <link rel="icon" href="favicon.ico">
+  <style type=text/css>
+      body
+      {
+      height: 125vh;
+      margin-top: 80px;
+      padding: 30px;
+      background-size: cover;
+      font-family: sans-serif;
+      }
+      header {
+      background-color: #D3D3D3;
+      position: fixed;
+      left: 0;
+      right: 0;
+      top: 5px;
+      height: 30px;
+      display: flex;
+      align-items: center;
+      }
+      header * {
+      display: inline;
+      }
+      header li {
+      margin: 20px;
+      }
+      header li a {
+      color: blue;
+      text-decoration: none;
+      }
+  </style>
 </head>
 
 <body>
+  <header>
+  <nav>
+    <ul>
+    <li>
+    <a href="index.html"> Home </a>
+    </li>
+    <li>
+    <a href="ProjectsPage.html"> Projects Page </a>
+    </li>
+    </ul>
+  </nav>
+  </header>
+
   <div class="top-container">
     <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
     <h1>I'm Andrew</h1>
@@ -28,7 +71,7 @@
       <br>
       <p>Please click the link below to reach my projects page that contains some Github projects that I've recently worked on as a student in the Professional Certificate in Coding: Full Stack Development with MERN course with MIT xPRO. You can also reach the projects page in the navigation bar at the top of the page.</p>
       <br>
-      <a class="footer-link" href="https://github.com/andrewjscott88/ProjectsPage.html">Projects Page</a>
+      <a class="footer-link" href="ProjectsPage.html">Projects Page</a>
       <br>
     </div>
     <hr>
