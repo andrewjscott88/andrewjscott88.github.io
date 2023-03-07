@@ -5,8 +5,9 @@
   <meta charset="utf-8">
   <title>Andrew's Personal Site</title>
   <link rel="stylesheet" href="css/styles.css">
-  <link rel="bootstrap" href="bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="icon" href="favicon.ico">
+  <!--
   <style type=text/css>
       body
       {
@@ -37,11 +38,27 @@
       text-decoration: none;
       }
   </style>
+  -->
 </head>
 
 <body>
 
   <header>
+    <!-- creating Navigation Bar using Bootstrap -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+     <div class="collapse navbar-collapse" id="navbarNav">
+       <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="ProjectsPage.html">Projects Page</a>
+          </li>
+        </ul>
+
+      </div>
+    </nav>
+<!--
   <nav>
     <ul>
     <li>
@@ -52,15 +69,15 @@
     </li>
     </ul>
   </nav>
+-->
   </header>
 
+    <br><hr>
     <h2>Projects Page</h2>
 
       <p>Please see below for the links to my three favorite projects that I've worked on recently as a student in the Professional Certificate in Coding: Full Stack Development with MERN course with MIT xPRO:</p>
       <br>
-      <p>This link will return you to the main landing page:</p>
-      <a class="return-link" href="https://andrewjscott88.github.io/"><h3>Return to main page</h3></a>
-      <br>
+      
 
     <hr>
     <div class="projects">
