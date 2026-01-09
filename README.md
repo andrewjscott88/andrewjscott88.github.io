@@ -1,5 +1,5 @@
 # andrewjscott88.github.io
-Project == for MIT xPRO Professional Certificate in Coding: Full Stack Development with MERN - November 2022
+
 
 Hello, my name is Andrew Scott. 
 
